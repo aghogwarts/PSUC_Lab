@@ -1,3 +1,12 @@
+/*
+
+WAP to take n numbers from a user and get the product of the digits of the number divisble by 2.
+    -- If product lies in the range 0 to 10, return square of the product
+    -- If product lies in the range 11 to 100, return square root of the product
+    -- Else return product
+
+*/
+
 #include <stdio.h>
 #include <math.h>
 
