@@ -1,2 +1,2 @@
 # PSUC
-C Program sodes for the PSUC course
+C Program codes for the PSUC course
