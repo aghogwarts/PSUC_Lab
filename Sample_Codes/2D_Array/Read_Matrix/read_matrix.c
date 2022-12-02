@@ -16,7 +16,7 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    printf("\n>> The entered Matrix is:\n\n");
+    printf("\n\n>> The entered Matrix is:\n\n");
     for (i = 0; i < m; i++)
     {
         printf("|  ");
