@@ -18,5 +18,6 @@ int main()
         printf("%d", arr[j]);
         printf("\t");
     }
+    printf("\n");
     return 0;
 }
