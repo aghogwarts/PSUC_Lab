@@ -35,4 +35,5 @@ int main()
     {
         printf("\n-- Cannot add the arrays");
     }
+    return 0;
 }

@@ -15,8 +15,7 @@ int main()
     printf("\n-- Elements of the array are:\n>> ");
     for (int j = 0; j < n; j++) // Displaying n elements
     {
-        printf("%d", arr[j]);
-        printf("\t");
+        printf("%d\t", arr[j]);
     }
     printf("\n");
     return 0;
