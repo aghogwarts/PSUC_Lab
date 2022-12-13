@@ -3,11 +3,11 @@
 int main()
 {
     int n, rev, num, rd;
-    printf("Enter a number : ");
-    scanf("%d",&n);
+    printf("\nEnter a number:\n>> ");
+    scanf("%d", &n);
     rev = 0;
     num = n;
-    while(n != 0)
+    while (n != 0)
     {
         rd = n % 10;
         rev = rev * 10 + rd;
@@ -15,12 +15,12 @@ int main()
     }
     if (rev == num)
     {
-        printf("The entered number is a palindrome");
-
+        printf("\n-- The entered number is a palindrome");
     }
     else
     {
-        printf("The entered number is not a palindrome");
+        printf("\n-- The entered number is not a palindrome");
     }
+    printf("\n");
     return 0;
 }
