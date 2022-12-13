@@ -5,8 +5,8 @@
 int main()
 {
     char c;
-    printf("Enter a character to find it's ASCII value: ");
+    printf("\nEnter a character to find it's ASCII value:\n>> ");
     scanf("%c", &c);
-    printf("\n-- ASCII value of the character is: %d", c);
+    printf("\n-- ASCII value of the character is: %d\n", c);
     return 0;
 }

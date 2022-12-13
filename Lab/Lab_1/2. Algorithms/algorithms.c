@@ -5,7 +5,7 @@
 int main()
 {
     int a, b, sum, diff, prod, quot;
-    printf("Enter 2 numbers to perform some basic operations on: ");
+    printf("\nEnter 2 numbers to perform some basic operations on:\n>> ");
     scanf("%d,%d", &a, &b);
     sum = a + b;
     diff = a - b;
@@ -15,5 +15,6 @@ int main()
     printf("\nDifference: %d", diff);
     printf("\nProduct: %d", prod);
     printf("\nQuotient: %d", quot);
+    printf("\n");
     return 0;
 }
