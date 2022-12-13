@@ -2,29 +2,43 @@
 
 int main()
 {
-    int i, n, l=0, s=0;
-    printf("Enter number of elements: ");
-    scanf("%d",&n);
+    int i, n, l = 0, s;
+    printf("\nEnter number of elements:\n>> ");
+    scanf("%d", &n);
     int a[n];
-    printf("Enter the values:\n");
-    for(i=0;i<n;i++)
+    printf("\nEnter the values:\n");
+    for (i = 0; i < n; i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%d", &a[i]);
     }
-    for (i=0;i<n-1;i++)
+    s = a[0];
+    for (i = 0; i < n - 1; i++)
     {
-        if(a[i]<a[i+1])
+        if (a[i] < a[i + 1])
         {
-            l=a[i+1];
-            s=a[i];
+            if (a[i + 1] > l)
+            {
+                l = a[i + 1];
+            }
+            if (a[i] < s)
+            {
+                s = a[i];
+            }
         }
         else
         {
-            l=a[i];
-            s=a[i+1];
+            if (a[i] > l)
+            {
+                l = a[i];
+            }
+            if (a[i + 1] < s)
+            {
+                s = a[i + 1];
+            }
         }
     }
-    printf("\nLargest number is: %d\n",l);
-    printf("Smallest number is: %d\n",s);
+    printf("\n-- Largest number is: %d", l);
+    printf("\n-- Smallest number is: %d", s);
+    printf("\n\n");
     return 0;
 }
