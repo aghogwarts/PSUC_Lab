@@ -15,5 +15,7 @@ scanf("%d,%d", &m, &n);
 Put values as `4,5`
 <br><br>
 
+### Note:
+
 - Every program can have a different implementation but these codes are how I tried to solve the problem statements. Feel free to DM me if you are stuck somewhere and need help!
 - If you find problems in any code feel free to open an issue or a Pull Request in the respective tabs!
