@@ -2,29 +2,29 @@
 
 int main()
 {
-    int a,b,c;
-    printf("Enter a,b,c : ");
-    scanf("%d,%d,%d",&a,&b,&c);
-    if(a>b)
+    int a, b, c;
+    printf("\nEnter a,b,c:\n>> ");
+    scanf("%d,%d,%d", &a, &b, &c);
+    if (a > b)
     {
-        if(a>c)
+        if (a > c)
         {
-            printf("Of the numbers : %d is the largest",a);
+            printf("\n-- Of the numbers: %d is the largest\n", a);
         }
         else
         {
-            printf("Of the numbers : %d is the largest",c);
+            printf("\n-- Of the numbers: %d is the largest\n", c);
         }
     }
     else
     {
-        if(b>c)
+        if (b > c)
         {
-            printf("Of the numbers : %d is the largest",b);
+            printf("\n-- Of the numbers: %d is the largest\n", b);
         }
         else
         {
-            printf("Of the numbers : %d is the largest",c);
+            printf("\n-- Of the numbers: %d is the largest\n", c);
         }
     }
     return 0;
