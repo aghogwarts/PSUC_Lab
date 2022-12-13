@@ -3,27 +3,29 @@
 int main()
 {
     int m, n, i, j, prime;
-    printf("Enter m,n to generate prime numbers between them: ");
+    printf("\nEnter m,n to generate prime numbers between them:\n>> ");
     scanf("%d,%d", &m, &n);
     i = m;
-    while(i <= n)
+    printf("\n> Prime numbers between %d and %d are:\n-- ", m, n);
+    while (i <= n)
     {
         prime = 1;
         j = 2;
-        while(j < i)
+        while (j < i)
         {
-            if(i%j == 0)
+            if (i % j == 0)
             {
                 prime = 0;
                 break;
             }
             j++;
         }
-        if(prime==1)
+        if (prime == 1)
         {
             printf("%d\t", i);
         }
         i++;
     }
+    printf("\n");
     return 0;
 }
