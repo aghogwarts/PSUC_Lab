@@ -1,3 +1,5 @@
+//* WAP to print the fine on a person's late book submission depending on the number of days
+
 #include <stdio.h>
 
 int main()
@@ -21,6 +23,6 @@ int main()
     {
         printf("\n-- Your fine is Rs. 10.00");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

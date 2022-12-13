@@ -15,6 +15,6 @@ int main()
     printf("\nDifference: %d", diff);
     printf("\nProduct: %d", prod);
     printf("\nQuotient: %d", quot);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

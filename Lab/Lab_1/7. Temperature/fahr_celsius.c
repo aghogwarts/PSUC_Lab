@@ -9,6 +9,6 @@ int main()
     scanf("%f", &F);
     C = ((float)5 / 9) * (F - 32);
     printf("\n-- Temp in Celsius: %.2f", C);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

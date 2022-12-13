@@ -12,6 +12,6 @@ int main()
     sa = 4 * 3.14 * pow(r, 2);
     printf("\n-- Volume of Sphere: %.2f", vol);
     printf("\n-- Surface Area of Sphere: %.2f", sa);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

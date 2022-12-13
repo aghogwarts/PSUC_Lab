@@ -1,3 +1,5 @@
+//* Write a program to check whether a number is +ve,-ve or 0
+
 #include <stdio.h>
 
 int main()
@@ -17,6 +19,6 @@ int main()
     {
         printf("\n-- Entered number is negative -ve");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

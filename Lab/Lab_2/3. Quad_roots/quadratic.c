@@ -39,5 +39,6 @@ int main()
         im = pow(fabs(D), 0.5) / (2 * a);
         printf("\n-- Roots are %f + i%f\n", re, im);
     }
+    printf("\n");
     return 0;
 }

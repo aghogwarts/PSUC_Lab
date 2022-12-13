@@ -20,6 +20,6 @@ int main()
     {
         printf("\n-- It is not an armstrong");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

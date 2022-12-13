@@ -13,5 +13,6 @@ int main()
     {
         printf("\n-- Entered number is odd\n");
     }
+    printf("\n");
     return 0;
 }

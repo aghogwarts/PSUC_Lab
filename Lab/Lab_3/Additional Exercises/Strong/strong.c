@@ -1,3 +1,5 @@
+//* WAP to check if the number entered is a strong number i.e. sum of the factorial of every digit of the number is equal to the number itself
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -31,6 +33,6 @@ int main()
     {
         printf("\n-- Entered number is not a strong number!");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

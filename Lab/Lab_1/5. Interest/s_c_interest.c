@@ -12,6 +12,6 @@ int main()
     CI = (P * pow((1 + R / 100), N)) - P;
     printf("\n-- SI is: %.2f", SI);
     printf("\n-- CI is: %.2f", CI);
-    printf("\n");
+    printf("\n\n");
     return 0;
 }

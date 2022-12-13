@@ -36,6 +36,6 @@ int main()
         }
     } while (n != -1);
     printf("\n-- No of prime numbers is: %d", prime_num);
-    printf("\n-- No of composite numbers is: %d\n", comp_num);
+    printf("\n-- No of composite numbers is: %d\n\n", comp_num);
     return 0;
 }

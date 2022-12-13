@@ -27,5 +27,6 @@ int main()
             printf("\n-- Of the numbers: %d is the largest\n", c);
         }
     }
+    printf("\n");
     return 0;
 }

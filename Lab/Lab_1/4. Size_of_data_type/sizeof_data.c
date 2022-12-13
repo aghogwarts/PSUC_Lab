@@ -10,6 +10,6 @@ int main()
     printf("\nSize of Double: %d", sizeof(double));           // 8
     printf("\nSize of Long-Double: %d", sizeof(long double)); // 16
     printf("\nSize of Long-Integer: %d", sizeof(long int));   // 4
-    printf("\n");                                             // Values are in respect to my x64 machine
+    printf("\n\n");                                           // Values are in respect to my x64 machine
     return 0;
 }
