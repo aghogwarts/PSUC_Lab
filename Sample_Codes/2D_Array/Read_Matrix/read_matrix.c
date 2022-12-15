@@ -16,16 +16,16 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    printf("\n\n>> The entered Matrix is:\n\n");
+    printf("\n\n>> The entered Matrix is:\n");
     for (i = 0; i < m; i++)
     {
-        printf("|  ");
+        printf("\n|\t");
         for (j = 0; j < n; j++)
         {
-            printf("%d  ", a[i][j]);
+            printf("%d\t", a[i][j]);
         }
-        printf("|\n");
+        printf("|");
     }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
