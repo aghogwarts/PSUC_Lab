@@ -1,4 +1,4 @@
-//* Finding the row and column sum of a matrix
+//* Finding the row sum of a matrix
 
 #include <stdio.h>
 
@@ -7,7 +7,7 @@ int main()
     int i, j, m, n, a[50][50];
     printf("\nEnter dimensions of the Matrix:\n>> ");
     scanf("%d,%d", &m, &n);
-    int row_sum[m], column_sum[n];
+    int row_sum[m];
     printf("\nEnter the elements:");
     for (i = 0; i < m; i++)
     {
@@ -19,29 +19,16 @@ int main()
             row_sum[i] += a[i][j];
         }
     }
-    for (j = 0; j < n; j++)
-    {
-        column_sum[j] = 0;
-        for (i = 0; i < m; i++)
-        {
-            column_sum[j] += a[i][j];
-        }
-    }
     printf("\n\n>> The Calculated Matrix is:\n\n");
     for (i = 0; i < m; i++)
     {
-        printf("|  ");
+        printf("\n|\t");
         for (j = 0; j < n; j++)
         {
-            printf("%d  ", a[i][j]);
+            printf("%d\t", a[i][j]);
         }
-        printf("| = %d\n", row_sum[i]);
+        printf("|\t=\t%d", row_sum[i]);
     }
-    printf("   ");
-    for (i = 0; i < n; i++)
-    {
-        printf("%d  ", column_sum[i]);
-    }
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
