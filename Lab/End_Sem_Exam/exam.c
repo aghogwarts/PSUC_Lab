@@ -15,7 +15,7 @@
 
 int Boundary(int a[50][50], int size)
 {
-    int i, j, sum;
+    int i, j, sum = 0;
     for (i = 0; i < size; i++)
     {
         for (j = 0; j < size; j++)
