@@ -4,7 +4,7 @@ This repository contains all the codes for programs done in PSUC class and Labs 
 
 ---
 
-In all the programs you may see that i've used a `comma(,)` in `scanf` statements and hence while typing in the comamnd line you'll have to put values accordingly.
+In all the programs you may see that i've used a `comma(,)` in `scanf` statements and hence while typing in the command line where the code is run you'll have to put values accordingly.
 <br><br>
 For example:
 
@@ -22,4 +22,4 @@ Put values as `4,5`
 -   Or just head over to the [Discussions](https://github.com/aghogwarts/PSUC/discussions) page to discuss anything and everything related to this repository!
     <br><br>
 -   If you haven't started Learning C or have issues in some topics I recommend watching [this 4 hour](https://youtu.be/87SH2Cn0s9A) video that kind of completely covers programming in C.
--   Also if you need help with installing IDEs or compilers for C head over to Discussions :)
+-   Also if you need help with installing IDEs or compilers for C head over to Discussions :) Or even if you have any doubts understanding C concepts head over to discussions and open a new topic
